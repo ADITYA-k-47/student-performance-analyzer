@@ -1,15 +1,15 @@
 PROBLEM STATEMENT: STUDENT PERFORMANCE ANALYZER
 
 Background:
-Educational institutions frequently need to evaluate student performance across various subjects. Manually calculating averages, determining letter grades, checking pass/fail statuses, and identifying strengths or weaknesses (highest and lowest marks) is time-consuming and prone to human calculation errors.
+Educational institutions frequently need to evaluate student performance across various subjects. Manually calculating averages, determining letter grades, checking pass/fail statuses and identifying strengths or weaknesses (highest and lowest marks) is time-consuming and to human calculation errors.
 
 Problem Description:
-Develop a command-line Python application that automates the process of analyzing a student's academic performance. The system must accept user inputs for a student's name and their marks in three core subjects: Mathematics, Python Programming, and English. 
+Develop a command-line Python application that automates the process of analyzing a student's academic performance. The system must accept user inputs for a student's name and their marks in three core subjects: Mathematics, Python Programming and English. 
 
 Key Operational Constraints & Rules:
 1. Input Validation: The system must strictly reject invalid marks (scores below 0 or above 100) and prompt the user until valid numerical data is entered.
-2. Metrics Calculation: The application must compute the precise average score, identify the highest score achieved, and pinpoint the lowest score among the subjects.
+2. Metrics Calculation: The application must compute the precise average score, identify the highest score achieved and pinpoint the lowest score among the subjects.
 3. Grading & Status Rules: 
-   - A average score of 90+ earns an 'A+', 80-89 earns an 'A', 70-79 earns a 'B', 60-69 earns a 'C', 50-59 earns a 'D', and anything below 50 results in an 'F'.
-   - A student passes the overall assessment if their average score is 40 or above; otherwise, they fail.
+   - A average score of 90+ then give 'A+', 80-89 then give 'A', 70-79 then give 'B', 60-69 then give'C', 50-59 then give 'D', and anything below 50 results in an 'F'.
+   - A student passes the overall assessment if their average score is 40 or above otherwise, they fail.
 4. Output Reporting: The tool must output a clean, organized, and rounded summary report displaying the student's name, calculated metrics, final grade, and pass/fail status.
